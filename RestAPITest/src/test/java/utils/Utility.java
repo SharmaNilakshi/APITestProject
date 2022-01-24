@@ -28,6 +28,7 @@ public class Utility {
 	{
 		String[] propFileValues = null;;
 		InputStream input;
+		
 		try {
 			input = new FileInputStream("./././src/main/resources/data.prop");	
 

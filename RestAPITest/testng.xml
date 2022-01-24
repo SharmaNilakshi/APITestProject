@@ -4,7 +4,7 @@
 <listeners>
 	<listener class-name="ExtentReportListener.ExtentReportListener"></listener>
 </listeners>
-  <test thread-count="2" name="Test">
+  <test thread-count="3" name="Test">
     <classes>
       <class name="Tests.TestAPI_01"/>
     </classes>

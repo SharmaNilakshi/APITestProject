@@ -1,4 +1,5 @@
 q = Vilnius
+incorrect_q = Vilnius_test
 correct_appid = 2ae3931a57dd3c7fe10bde0c83fd2dbb
 correct_URL = https://api.openweathermap.org/data/2.5/weather
 incorrect_appid = 2ae3931a57dd3c7fe10bde0c83fd2

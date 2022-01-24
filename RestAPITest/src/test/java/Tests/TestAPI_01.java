@@ -9,7 +9,7 @@ public class TestAPI_01 {
 	// Verify response body, status code and country		
 		
 		@Test
-		void verifyReponse_positive()
+		void verifyReponse_Positive()
 		{
 	            utils = new Utility();
 	            utils.checkResponse("q", "correct_appid", "correct_URL");
@@ -18,7 +18,7 @@ public class TestAPI_01 {
 	//Verify response for incorrect appId
 		
 		@Test
-		void verifyResponseForIncorrectAppId_nagative1()
+		void verifyResponseForIncorrectAppId_Negative1()
 		{
 			
 			utils = new Utility();
@@ -29,7 +29,7 @@ public class TestAPI_01 {
 	//Verify response for incorrect URL 
 	
 		@Test
-		void verifyResponseForIncorrectUrl_negative2()
+		void verifyResponseForIncorrectUrl_Negative2()
 		{
 			utils = new Utility();
             utils.checkResponse("q", "correct_appid", "incorrect_URL");
